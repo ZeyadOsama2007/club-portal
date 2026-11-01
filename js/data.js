@@ -10,9 +10,9 @@ const EVENTS = [
 ];
 
 const MEMBERS = [
-  {name:"زياد اسامة", role:"رئيس النادي", icon:"👨‍💼", img:"Zeyad.jpg.jpeg"},
+  {name:"زياد اسامة", role:"رئيس النادي", icon:"👨‍💼"},
   {name:"مروان عبد الغفور", role:"نائب الرئيس", icon:"👨‍💼"},
-  {name:"السيد حمادة", role:"مسؤول الفعاليات", icon:"🎯", img:"Sayed.jpg.jpeg"},
+  {name:"السيد حمادة", role:"مسؤول الفعاليات", icon:"🎯"},
   {name:"سارة حنفي", role:"مسؤولة الإعلام", icon:"📸"},
   {name:"يوسف", role:"مسؤول التقنية", icon:"💻"},
   {name:"فارس", role:"أمين الصندوق", icon:"💰"}
