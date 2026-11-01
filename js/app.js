@@ -34,7 +34,7 @@ const newsCard = n => `<div class="card news reveal"><p class="meta">📅 ${n.da
 const initials = name => name.trim().split(/\s+/).slice(0,2).map(w => w[0]).join(" ");
 // لو العضو ليه img في data.js بتظهر صورته، غير كده بيظهر أفاتار بالحروف
 const memberCard = (m, i) => `<div class="card member reveal">${
-  m.img ? `<img class="ava" src="${m.img}" alt="${m.name}">`
+  `<img class="photo" src="${m.img}" alt="${m.name}" style="width:90px;height:90px;border-radius:50%;object-fit:cover;display:block;margin:0 auto .8rem;border:3px solid #1d4ed8">`
         : `<div class="ava" style="background:${COLORS[i % COLORS.length]}">${initials(m.name)}</div>`}
   <h3>${m.name}</h3><p class="meta">${m.role}</p></div>`;
 
